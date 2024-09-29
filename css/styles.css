@@ -1,0 +1,162 @@
+body {
+    background-image: url('../img/Frutasyv.jpg');
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+.custom-nav .nav link {
+    font-size: 20px;
+    /*Aumenta el tamaño de la fuente*/
+    color: rgb(0, 0, 0);
+    /*Cambia el color del texto a negro */
+}
+
+.custom-nav {
+    display: flex;
+    margin: 10px;
+    height: 210px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-nav .nav-link.active,
+.custom-nav .nav-link {
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px 0;
+    color: black;
+}
+
+.text-container {
+    position: relative;
+    left: 10px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    gap: 200px;
+}
+
+.logo-container {
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.image-gallery {
+    text-align: left;
+    color: rgb(5, 5, 5);
+}
+
+.card {
+    width: 235px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-container {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.margin-card {
+    width: 287px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.card-text {
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 6px 0;
+    color: rgb(5, 4, 4);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-icons a img:hover {
+    transform: scale(1.2);
+}
